@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "www.perch.co"
   s.author       = { "Chris Eagleston" => "chris@perch.co" }
 
-  s.source       = { :http => "https://s3.amazonaws.com/perch-pods/webrtc-ios-chrome-m45-capture-xcode.zip" }
+  s.source       = { :http => "https://cdn.collabramusic.com/webrtc-ios-chrome-m45-capture-xcode.zip" }
 
   s.source_files  = "include/talk/app/webrtc/*.h", "include/talk/app/webrtc/objc/**/*.h", "include/third_party/libyuv/include/**/*.h", "include/webrtc/video_frame.h", "include/webrtc/typedefs.h", "include/webrtc/common_types.h", "include/webrtc/base/*.h", "include/webrtc/common_video/**/*.h", "include/webrtc/modules/interface/*.h", "include/webrtc/modules/video_capture/**/*.h", "include/webrtc/p2p/base/*.h", "include/webrtc/system_wrappers/interface/*.h", "include/webrtc/system_wrappers/source/*.h", "include/talk/media/base/*.h", "include/talk/media/webrtc/*.h", "include/talk/session/media/*.h", "include/talk/p2p/base/*.h", "include/talk/xmllite/*.h", "include/talk/media/devices/*.h"
   s.exclude_files = "include/talk/examples"

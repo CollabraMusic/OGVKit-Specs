@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "www.perch.co"
   s.author       = { "Chris Eagleston" => "chris@perch.co" }
 
-  s.source       = { :http => "https://bitbucket.org/collabra/nighthawk-webrtc/raw/e3b56097990cee1f3ab895645968a14e77274a3d/webrtc-ios-chrome-45-capture-xcode.zip" }
+  s.source       = { :http => "https://bitbucket.org/collabra/nighthawk-webrtc/raw/61d0373fb4f10e4d028086c747bae1479a73330f/webrtc-ios-chrome-m45.zip" }
 
   s.source_files  = "include/talk/app/webrtc/*.h", "include/talk/app/webrtc/objc/**/*.h", "include/third_party/libyuv/include/**/*.h", "include/webrtc/video_frame.h", "include/webrtc/typedefs.h", "include/webrtc/common_types.h", "include/webrtc/base/*.h", "include/webrtc/common_video/**/*.h", "include/webrtc/modules/interface/*.h", "include/webrtc/modules/video_capture/**/*.h", "include/webrtc/p2p/base/*.h", "include/webrtc/system_wrappers/interface/*.h", "include/webrtc/system_wrappers/source/*.h", "include/talk/media/base/*.h", "include/talk/media/webrtc/*.h", "include/talk/session/media/*.h", "include/talk/p2p/base/*.h", "include/talk/xmllite/*.h", "include/talk/media/devices/*.h", "include/third_party/vpx/**/*.h"
   s.exclude_files = "include/talk/examples"

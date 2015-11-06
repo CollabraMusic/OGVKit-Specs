@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.author             = { "Brion Vibber (packager)" => "brion@pobox.com" }
 
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "7.0"
 
   s.source       = { :http => "https://github.com/brion/VPX-iOS/releases/download/" + ver + "/VPX-iOS.zip",
                      :sha1 => sha1,

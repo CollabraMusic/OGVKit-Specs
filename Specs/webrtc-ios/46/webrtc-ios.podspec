@@ -10,15 +10,14 @@ Pod::Spec.new do |s|
 
   s.source       = { :http => "https://bitbucket.org/collabra/webrtc-ios/raw/462a712dd456e553b06f88cdc57239626d3fefa3/webrtc-ios-46.zip" }
 
-  s.source_files  = "include/*.h", "include/libvpx/*.h"
-  s.exclude_files = "include/talk/examples"
+  s.source_files  = "include/*.h", "include/vpx/*.h"
 
   s.requires_arc = true 
   s.frameworks   = 'QuartzCore', 'OpenGLES', 'GLKit', 'CoreAudio', 'CoreMedia', 'CoreVideo', 'AVFoundation', 'AudioToolbox', 'UIKit', 'Foundation', 'CoreGraphics', 'VideoToolbox'
   s.libraries = 'c', 'sqlite3', 'stdc++'
   s.vendored_libraries = "lib/libWebRTC-#{s.version}-arm-intel-Release.a"
 
-  s.preserve_paths = 'include/*', 'include/libvpx/*', 'lib/*.a'
+  s.preserve_paths = 'include/*', 'include/vpx/*', 'lib/*.a'
 
   s.xcconfig = {
                   'GCC_PREPROCESSOR_DEFINITIONS' => 'V8_DEPRECATION_WARNINGS EXPAT_RELATIVE_PATH FEATURE_ENABLE_VOICEMAIL JSONCPP_RELATIVE_PATH LOGGING=1 SRTP_RELATIVE_PATH FEATURE_ENABLE_SSL FEATURE_ENABLE_PSTN HAVE_SCTP HAVE_SRTP HAVE_WEBRTC_VIDEO HAVE_WEBRTC_VOICE DISABLE_NACL CHROMIUM_BUILD CR_CLANG_REVISION=239765-1 USE_LIBJPEG_TURBO=1 ENABLE_CONFIGURATION_POLICY SYSTEM_NATIVELY_SIGNALS_MEMORY_PRESSURE DONT_EMBED_BUILD_METADATA CLD_VERSION=2 DISABLE_FTP_SUPPORT=1 V8_USE_EXTERNAL_STARTUP_DATA IOS WEBRTC_MAC WEBRTC_IOS CARBON_DEPRECATED=YES HASH_NAMESPACE=__gnu_cxx WEBRTC_POSIX DISABLE_DYNAMIC_CAST _REENTRANT USE_LIBPCI=1 USE_OPENSSL=1 NDEBUG NVALGRIND DYNAMIC_ANNOTATIONS_ENABLED=0',

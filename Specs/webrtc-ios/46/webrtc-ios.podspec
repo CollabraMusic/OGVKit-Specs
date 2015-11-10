@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true 
   s.frameworks   = 'QuartzCore', 'OpenGLES', 'GLKit', 'CoreAudio', 'CoreMedia', 'CoreVideo', 'AVFoundation', 'AudioToolbox', 'UIKit', 'Foundation', 'CoreGraphics', 'VideoToolbox'
   s.libraries = 'c', 'sqlite3', 'stdc++'
-  s.vendored_libraries = "lib/libWebRTC-#{s.version}-arm-intel-Release.a"
+  s.vendored_libraries = "lib/libWebRTC.a"
 
   s.preserve_paths = 'include/*', 'include/vpx/*', 'lib/*.a'
 

@@ -10,14 +10,14 @@ Pod::Spec.new do |s|
 
   s.source       = { :http => "https://bitbucket.org/collabra/webrtc-ios/raw/462a712dd456e553b06f88cdc57239626d3fefa3/webrtc-ios-46.zip" }
 
-  s.source_files  = "include/*.h", "include/vpx/*.h"
+  s.source_files  = "include/*.h"
 
   s.requires_arc = true 
   s.frameworks   = 'QuartzCore', 'OpenGLES', 'GLKit', 'CoreAudio', 'CoreMedia', 'CoreVideo', 'AVFoundation', 'AudioToolbox', 'UIKit', 'Foundation', 'CoreGraphics', 'VideoToolbox'
   s.libraries = 'c', 'sqlite3', 'stdc++'
   s.vendored_libraries = "lib/libWebRTC.a"
 
-  s.preserve_paths = 'include/*', 'include/vpx/*', 'lib/*.a'
+  s.preserve_paths = 'include/*', 'lib/*.a'
 
   s.license      = {
     :type => 'http://www.webrtc.org/license-rights/license',

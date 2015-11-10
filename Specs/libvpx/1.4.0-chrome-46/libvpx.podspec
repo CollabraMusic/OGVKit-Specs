@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "libvpx"
-  s.version      = "46"
+  s.version      = "1.4.0-chrome-46"
   s.platform     = :ios, '7.0'
   s.summary      = "Pre-compiled library for libvpx"
 

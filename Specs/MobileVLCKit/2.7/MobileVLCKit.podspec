@@ -30,7 +30,9 @@ Pod::Spec.new do |s|
                   'CLANG_CXX_LIBRARY' => 'libstdc++'
                }
 
-  
+  s.subspec "VP8Decoder" do |svp8decoder|
+    svp8decoder.dependency 'libvpx', '1.4.0-chrome-45'
+  end
 
 
 end

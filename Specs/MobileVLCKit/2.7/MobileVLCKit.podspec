@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     :file => "COPYING.txt"
   }
   
-  s.source       = { :http => "https://bitbucket.org/collabra/webrtc-ios/raw/c5c8e5e6f1589045705aa46f5630740f81bf979b/MobileVLCKit.zip" }
+  s.source       = { :http => "https://bitbucket.org/collabra/webrtc-ios/raw/a11553c799a5f57a7a5a650bef86949244ccb371/MobileVLCKit.zip" }
 
   s.source_files  = "include/Public/*.h"
 

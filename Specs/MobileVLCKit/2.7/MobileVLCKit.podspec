@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   
   s.vendored_libraries = "lib/libMobileVLCKit.a"
 
-  s.preserve_paths = "include/Public/*.h", "include/Internal.h", "lib/*"
+  s.preserve_paths = "include/Public/*.h", "include/Internal/*.h", "lib/*"
   
   s.requires_arc = false
 

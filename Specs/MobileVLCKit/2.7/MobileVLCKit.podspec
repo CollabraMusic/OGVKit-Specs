@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   
   s.source       = { :http => "https://bitbucket.org/collabra/webrtc-ios/raw/c5c8e5e6f1589045705aa46f5630740f81bf979b/MobileVLCKit.zip" }
 
-  s.source_files  = "include/*.h"
+  s.source_files  = "include/Public/*.h"
 
   s.requires_arc = true 
   s.frameworks   = 'QuartzCore', 'CoreText', 'AVFoundation', 'Security','CFNetwork', 'AudioToolbox', 'OpenGLES', 'CoreGraphics'
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   
   s.vendored_libraries = "lib/libMobileVLCKit.a"
 
-  s.preserve_paths = "include/*", "lib/*"
+  s.preserve_paths = "include/Public/*.h", "include/Internal.h", "lib/*"
   
   s.requires_arc = false
 

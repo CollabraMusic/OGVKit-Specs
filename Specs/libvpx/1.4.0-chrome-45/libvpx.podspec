@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "www.collabramusic.com"
   s.author       = { "Brandon Kobel" => "brandon@collabramusic.com" }
 
-  s.source       = { :http => "https://bitbucket.org/collabra/webrtc-ios/raw/22cc4215fb6fbb105fc2f5bc5c42521f5aaeb2cb/libvpx-chrome-45.zip" }
+  s.source       = { :http => "https://bitbucket.org/collabra/ios-libs/raw/b39a5eb15d5ce1d9f1f5ea86785639a69ee09f40/libvpx-chrome-45.zip" }
 
   s.source_files  = "include/*.h"
 

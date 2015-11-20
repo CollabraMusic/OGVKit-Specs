@@ -1,2 +1,2 @@
-# OGVKit-Specs
-temp location of dependent CocoaPods specs for OGVKit
+# CollabraMusic Specs
+Custom Specs to support custom builds of webrtc and MobileVLCKit

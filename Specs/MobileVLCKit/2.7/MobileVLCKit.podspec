@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name      = 'MobileVLCKit'
-  s.version   = '2.7.0'
+  s.version   = '2.7'
   s.summary   = "MobileVLCKit is an Objective-C wrapper for libvlc's external interface on iOS."
   s.homepage  = 'https://wiki.videolan.org/VLCKit/'
   s.license   = {

@@ -12,9 +12,9 @@ Pod::Spec.new do |s|
   }
   s.ios.vendored_framework = 'MobileVLCKit-binary/MobileVLCKit.framework'
   s.public_header_files = 'MobileVLCKit-binary/MobileVLCKit.framework/Headers/*.h'
-  s.ios.deployment_target = '7.0.0'
+  s.platform     = :ios, '7.0'
   s.frameworks = 'QuartzCore', 'CoreText', 'AVFoundation', 'Security', 'CFNetwork', 'AudioToolbox', 'OpenGLES', 'CoreGraphics', 'VideoToolbox', 'CoreMedia'
-  s.libraries = 'libc++', 'xml2', 'z', 'bz2', 'iconv'
+  s.libraries = 'stdc++', 'xml2', 'z', 'bz2', 'iconv'
   s.requires_arc = false
   s.xcconfig = {
     'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11',
